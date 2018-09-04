@@ -6,6 +6,6 @@ export class TodoListPage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('todo-list-app h1')).getText();
   }
 }
